@@ -1,0 +1,36 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+color: #9736b5;
+font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    padding: 20px 30px;
+    background-color: gray;  
+}
+
+.my-pic {
+    width: 400;
+    height: auto;
+    float: right;
+    border: 5px solid black;
+    
+}
+.run-buddy {
+  
+    margin: 0 auto 30px auto;
+    background: #9736b5;
+    color: lightgray;
+    max-width: fit-content;
+    border: solid #9736b5;
+
+}
+.run-buddy img {
+    width: 900px;
+
+}
