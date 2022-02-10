@@ -5,29 +5,108 @@
 }
 
 body {
-color: #9736b5;
+color: orange;
 font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    padding: 75px;
+}
+
+.hero {
+background-image: url(../assets/images/forest-web.jpeg);
+background-size: cover;
+
+justify-content: center;
+flex-wrap: wrap;
+align-items: flex-start;
+background-attachment: fixed;
+background-position: 80;
+}
+div {
+display: block;
+}
+.hero-cta {
+width: 40px;
+text-align: center;
+margin: 4.0%;
+color: honeydew;
+font-size: 20px;
+line-height: 2.0;
+
+}
+
+.hero-cta h2 {
+
+    font-style: georgia;
+    font-size: 60px;
+    color: honeydew;
 }
 
 header {
     padding: 20px 30px;
-    background-color: gray;  
+    background-color: #355e3f;  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    
 }
+header h1 {
+
+color: whitesmoke;
+margin: 0%;
+display: inline;
+font-size: 40px;
+font-weight: bold;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+header nav {
+    float: right;
+    margin: 8px 0;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 30px;
+    font-weight: lighter;
+    font-size: 25px
+}
+
+
+.steps {
+    text-align: center;
+    background-color: grey;
+}
+.steps div{
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
 
 .my-pic {
     width: 400;
     height: auto;
     float: right;
-    border: 5px solid black;
+    border: 5px solid orange;
     
 }
 .run-buddy {
   
     margin: 0 auto 30px auto;
-    background: #9736b5;
-    color: lightgray;
+    background: orange;
+    color: black;
     max-width: fit-content;
-    border: solid #9736b5;
+    border: solid black;
 
 }
 .run-buddy img {
