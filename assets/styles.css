@@ -235,7 +235,7 @@ margin: 0;
 }
 
 
-footer nav ul li a {
+footer ul li a {
 
     text-decoration: none;
     color: aliceblue;
@@ -247,11 +247,7 @@ footer nav ul li a {
    
 
 }
-footer {
-   
-    float: right;
-    margin: 8px 0;
-}
+
 
 .footer {
 
@@ -266,13 +262,42 @@ footer {
     position: sticky;
     top: 0;
 }
+
 footer ul li {
     display: inline;
 }
+
+footer ul {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    }
+
 
 h5 {
 font-size: 18px;
 color: #757878;
 font: bold;
+
+}
+
+
+
+
+
+@media all and (max-width: 550px) {
+
+.main {
+    flex-direction: column;
+}
+main{
+
+    padding: 5em 0 5em 0;
+}
+
+
 
 }
