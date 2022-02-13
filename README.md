@@ -9,7 +9,7 @@ thank you!
 * CSS
 
 ## Website
-https://lernantino.github.io/student-bio/
+https://Voyagi.github.io/student-bio/
 
 ## made by
 Bryan Armenta
