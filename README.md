@@ -9,7 +9,7 @@ thank you!
 * CSS
 
 ## Website
-https://Voyagi.github.io/student-bio/
+https://Voyagi99.github.io/student-bio/
 
 ## made by
 Bryan Armenta
